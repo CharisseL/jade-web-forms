@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Making Boxes
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    form(method='post', action='/box')
+      label Number of Boxes 
+      input(type='text' name='numBox' placeholder='number of boxes' autofocus=true)
+      label Width
+      input(type='text' name='width' placeholder='width')
+      label Height
+      input(type='text' name='height' placeholder='length')
+      button Make my Box

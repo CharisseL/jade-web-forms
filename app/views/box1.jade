@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Create Boxes
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    form(method='post', action='/boxes')
+      input(name='count', type='text', placeholder='count', autofocus=true)
+      input(name='width', type='text', placeholder='width')
+      input(name='height', type='text', placeholder='height')
+      textarea(name='colors') blue, green, yellow, orange, pink, black, white, red, brown, purple, olive
+      button Make Boxes NOW!
